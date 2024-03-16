@@ -412,6 +412,12 @@ button{
   border-radius: 2rem;
   border: none;
   color: hsl(257, 40%, 49%);
+  cursor: pointer;
+ }
+ button:hover{
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
  }
  h1{
   font-size: 1.7rem;
@@ -441,6 +447,11 @@ button{
   align-items: center;
   justify-content: center;
   padding: 0.2rem;
+  cursor: pointer;
+ }
+ ul li:hover, li:hover svg path{
+  color: hsl(300, 69%, 71%);
+  fill: hsl(300, 69%, 71%);
  }
 
  
